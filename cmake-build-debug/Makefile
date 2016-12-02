@@ -123,6 +123,33 @@ C__Tutorial/fast:
 	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/build
 .PHONY : C__Tutorial/fast
 
+BankAccount.o: BankAccount.cpp.o
+
+.PHONY : BankAccount.o
+
+# target to build an object file
+BankAccount.cpp.o:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/BankAccount.cpp.o
+.PHONY : BankAccount.cpp.o
+
+BankAccount.i: BankAccount.cpp.i
+
+.PHONY : BankAccount.i
+
+# target to preprocess a source file
+BankAccount.cpp.i:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/BankAccount.cpp.i
+.PHONY : BankAccount.cpp.i
+
+BankAccount.s: BankAccount.cpp.s
+
+.PHONY : BankAccount.s
+
+# target to generate assembly for a file
+BankAccount.cpp.s:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/BankAccount.cpp.s
+.PHONY : BankAccount.cpp.s
+
 basicConcepts.o: basicConcepts.cpp.o
 
 .PHONY : basicConcepts.o
@@ -186,6 +213,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... C__Tutorial"
+	@echo "... BankAccount.o"
+	@echo "... BankAccount.i"
+	@echo "... BankAccount.s"
 	@echo "... basicConcepts.o"
 	@echo "... basicConcepts.i"
 	@echo "... basicConcepts.s"

@@ -1,12 +1,19 @@
 #include <iostream>
 #include <cstdlib>
+#include "BankAccount.h"
 
 void printSomething();
 void printSomethingForParams(int x);
 int add3(int x);
 int add3(double x);
 int defaultValuesParameters(int x,int y=10, int z=11);
+void passingByReference(int *x);
 
+//友元函数
+void someFunc(BankAccount &obj)
+{
+    //obj.name = "friend";
+}
 int main()
 {
     //std::cout << "Hello, World!" ;
@@ -108,6 +115,22 @@ int main()
     std::cout << "srand(time(0)) = " << rand() << std::endl;
     std::cout << "defaultValuesParameters(4) = " << defaultValuesParameters(4) << std::endl;
     std::cout << "overloading add3(4.78) = " << add3(4.78) << std::endl;
+    passingByReference(&a);
+    std::cout << "passingByReference(&a) = " << a << std::endl;
+    std::cout << "class sayHI ";
+    BankAccount test1;
+    BankAccount test2("newname");
+    test1.setName("asdfasdf");
+    test1.sayHi();
+    BankAccount *test3 = &test2;
+    std::cout << "object pointer  " << test3->getName() << std::endl;
+    const BankAccount test4("const");
+    test4.sayHiConst();
+    someFunc(test1);
+    test1.sayHi();
+    test1.sayHiThis();
+
+
 
     std::cout << "end ===============================================" << std::endl;
     return 0;
@@ -135,4 +158,9 @@ int add3(double x)
 int defaultValuesParameters(int x,int y,int z)
 {
     return x += y + z;
+}
+
+void passingByReference(int *x)
+{
+    *x = 500;
 }

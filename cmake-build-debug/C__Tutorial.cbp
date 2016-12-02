@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/jie/develop/c++/C++Tutorial/BankAccount.cpp">
+			<Option target="C__Tutorial"/>
+		</Unit>
+		<Unit filename="/home/jie/develop/c++/C++Tutorial/BankAccount.h">
+			<Option target="C__Tutorial"/>
+		</Unit>
 		<Unit filename="/home/jie/develop/c++/C++Tutorial/basicConcepts.cpp">
 			<Option target="C__Tutorial"/>
 		</Unit>
