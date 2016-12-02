@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jie/develop/c++/C++Tutorial/basicConcepts.cpp
+iostream
+-
+cstdlib
+-
+
+/home/jie/develop/c++/C++Tutorial/main.cpp
+iostream
+-
+
