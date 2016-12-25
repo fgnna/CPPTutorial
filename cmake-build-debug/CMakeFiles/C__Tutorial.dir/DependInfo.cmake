@@ -4,11 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/jie/develop/c++/C++Tutorial/BankAccount.cpp" "/home/jie/develop/c++/C++Tutorial/cmake-build-debug/CMakeFiles/C__Tutorial.dir/BankAccount.cpp.o"
-  "/home/jie/develop/c++/C++Tutorial/basicConcepts.cpp" "/home/jie/develop/c++/C++Tutorial/cmake-build-debug/CMakeFiles/C__Tutorial.dir/basicConcepts.cpp.o"
-  "/home/jie/develop/c++/C++Tutorial/main.cpp" "/home/jie/develop/c++/C++Tutorial/cmake-build-debug/CMakeFiles/C__Tutorial.dir/main.cpp.o"
+  "/Users/mac/Desktop/develop/CPP/CPPTutorial/BankAccount.cpp" "/Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug/CMakeFiles/C__Tutorial.dir/BankAccount.cpp.o"
+  "/Users/mac/Desktop/develop/CPP/CPPTutorial/ChildBankAccount.cpp" "/Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug/CMakeFiles/C__Tutorial.dir/ChildBankAccount.cpp.o"
+  "/Users/mac/Desktop/develop/CPP/CPPTutorial/basicConcepts.cpp" "/Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug/CMakeFiles/C__Tutorial.dir/basicConcepts.cpp.o"
+  "/Users/mac/Desktop/develop/CPP/CPPTutorial/main.cpp" "/Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug/CMakeFiles/C__Tutorial.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

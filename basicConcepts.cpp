@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cstdlib>
 #include "BankAccount.h"
+#include "ChildBankAccount.h"
 
 void printSomething();
 void printSomethingForParams(int x);
@@ -130,8 +131,12 @@ int main()
     test1.sayHi();
     test1.sayHiThis();
 
-
-
+    ChildBankAccount childBankAccount;
+    childBankAccount.sayHi();
+    BankAccount *prantBankAccount = &childBankAccount;
+    prantBankAccount->sayHi();
+    VirtualFunction *virtualFunction = &childBankAccount;
+    virtualFunction->virtualFunction();
     std::cout << "end ===============================================" << std::endl;
     return 0;
 }

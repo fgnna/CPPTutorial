@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/jie/develop/c++/clion-2016.3/bin/cmake/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/jie/develop/c++/clion-2016.3/bin/cmake/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jie/develop/c++/C++Tutorial
+CMAKE_SOURCE_DIR = /Users/mac/Desktop/develop/CPP/CPPTutorial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jie/develop/c++/C++Tutorial/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/C__Tutorial.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/C__Tutorial.dir/flags.make
 
 CMakeFiles/C__Tutorial.dir/main.cpp.o: CMakeFiles/C__Tutorial.dir/flags.make
 CMakeFiles/C__Tutorial.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jie/develop/c++/C++Tutorial/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/C__Tutorial.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C__Tutorial.dir/main.cpp.o -c /home/jie/develop/c++/C++Tutorial/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/C__Tutorial.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C__Tutorial.dir/main.cpp.o -c /Users/mac/Desktop/develop/CPP/CPPTutorial/main.cpp
 
 CMakeFiles/C__Tutorial.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C__Tutorial.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jie/develop/c++/C++Tutorial/main.cpp > CMakeFiles/C__Tutorial.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/Desktop/develop/CPP/CPPTutorial/main.cpp > CMakeFiles/C__Tutorial.dir/main.cpp.i
 
 CMakeFiles/C__Tutorial.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C__Tutorial.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jie/develop/c++/C++Tutorial/main.cpp -o CMakeFiles/C__Tutorial.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/Desktop/develop/CPP/CPPTutorial/main.cpp -o CMakeFiles/C__Tutorial.dir/main.cpp.s
 
 CMakeFiles/C__Tutorial.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/C__Tutorial.dir/main.cpp.o.provides.build: CMakeFiles/C__Tutorial.dir
 
 CMakeFiles/C__Tutorial.dir/basicConcepts.cpp.o: CMakeFiles/C__Tutorial.dir/flags.make
 CMakeFiles/C__Tutorial.dir/basicConcepts.cpp.o: ../basicConcepts.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jie/develop/c++/C++Tutorial/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/C__Tutorial.dir/basicConcepts.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C__Tutorial.dir/basicConcepts.cpp.o -c /home/jie/develop/c++/C++Tutorial/basicConcepts.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/C__Tutorial.dir/basicConcepts.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C__Tutorial.dir/basicConcepts.cpp.o -c /Users/mac/Desktop/develop/CPP/CPPTutorial/basicConcepts.cpp
 
 CMakeFiles/C__Tutorial.dir/basicConcepts.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C__Tutorial.dir/basicConcepts.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jie/develop/c++/C++Tutorial/basicConcepts.cpp > CMakeFiles/C__Tutorial.dir/basicConcepts.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/Desktop/develop/CPP/CPPTutorial/basicConcepts.cpp > CMakeFiles/C__Tutorial.dir/basicConcepts.cpp.i
 
 CMakeFiles/C__Tutorial.dir/basicConcepts.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C__Tutorial.dir/basicConcepts.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jie/develop/c++/C++Tutorial/basicConcepts.cpp -o CMakeFiles/C__Tutorial.dir/basicConcepts.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/Desktop/develop/CPP/CPPTutorial/basicConcepts.cpp -o CMakeFiles/C__Tutorial.dir/basicConcepts.cpp.s
 
 CMakeFiles/C__Tutorial.dir/basicConcepts.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/C__Tutorial.dir/basicConcepts.cpp.o.provides.build: CMakeFiles/C__Tut
 
 CMakeFiles/C__Tutorial.dir/BankAccount.cpp.o: CMakeFiles/C__Tutorial.dir/flags.make
 CMakeFiles/C__Tutorial.dir/BankAccount.cpp.o: ../BankAccount.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jie/develop/c++/C++Tutorial/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/C__Tutorial.dir/BankAccount.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C__Tutorial.dir/BankAccount.cpp.o -c /home/jie/develop/c++/C++Tutorial/BankAccount.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/C__Tutorial.dir/BankAccount.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C__Tutorial.dir/BankAccount.cpp.o -c /Users/mac/Desktop/develop/CPP/CPPTutorial/BankAccount.cpp
 
 CMakeFiles/C__Tutorial.dir/BankAccount.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C__Tutorial.dir/BankAccount.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jie/develop/c++/C++Tutorial/BankAccount.cpp > CMakeFiles/C__Tutorial.dir/BankAccount.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/Desktop/develop/CPP/CPPTutorial/BankAccount.cpp > CMakeFiles/C__Tutorial.dir/BankAccount.cpp.i
 
 CMakeFiles/C__Tutorial.dir/BankAccount.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C__Tutorial.dir/BankAccount.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jie/develop/c++/C++Tutorial/BankAccount.cpp -o CMakeFiles/C__Tutorial.dir/BankAccount.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/Desktop/develop/CPP/CPPTutorial/BankAccount.cpp -o CMakeFiles/C__Tutorial.dir/BankAccount.cpp.s
 
 CMakeFiles/C__Tutorial.dir/BankAccount.cpp.o.requires:
 
@@ -129,11 +129,36 @@ CMakeFiles/C__Tutorial.dir/BankAccount.cpp.o.provides: CMakeFiles/C__Tutorial.di
 CMakeFiles/C__Tutorial.dir/BankAccount.cpp.o.provides.build: CMakeFiles/C__Tutorial.dir/BankAccount.cpp.o
 
 
+CMakeFiles/C__Tutorial.dir/ChildBankAccount.cpp.o: CMakeFiles/C__Tutorial.dir/flags.make
+CMakeFiles/C__Tutorial.dir/ChildBankAccount.cpp.o: ../ChildBankAccount.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/C__Tutorial.dir/ChildBankAccount.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C__Tutorial.dir/ChildBankAccount.cpp.o -c /Users/mac/Desktop/develop/CPP/CPPTutorial/ChildBankAccount.cpp
+
+CMakeFiles/C__Tutorial.dir/ChildBankAccount.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C__Tutorial.dir/ChildBankAccount.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/Desktop/develop/CPP/CPPTutorial/ChildBankAccount.cpp > CMakeFiles/C__Tutorial.dir/ChildBankAccount.cpp.i
+
+CMakeFiles/C__Tutorial.dir/ChildBankAccount.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C__Tutorial.dir/ChildBankAccount.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/Desktop/develop/CPP/CPPTutorial/ChildBankAccount.cpp -o CMakeFiles/C__Tutorial.dir/ChildBankAccount.cpp.s
+
+CMakeFiles/C__Tutorial.dir/ChildBankAccount.cpp.o.requires:
+
+.PHONY : CMakeFiles/C__Tutorial.dir/ChildBankAccount.cpp.o.requires
+
+CMakeFiles/C__Tutorial.dir/ChildBankAccount.cpp.o.provides: CMakeFiles/C__Tutorial.dir/ChildBankAccount.cpp.o.requires
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/ChildBankAccount.cpp.o.provides.build
+.PHONY : CMakeFiles/C__Tutorial.dir/ChildBankAccount.cpp.o.provides
+
+CMakeFiles/C__Tutorial.dir/ChildBankAccount.cpp.o.provides.build: CMakeFiles/C__Tutorial.dir/ChildBankAccount.cpp.o
+
+
 # Object files for target C__Tutorial
 C__Tutorial_OBJECTS = \
 "CMakeFiles/C__Tutorial.dir/main.cpp.o" \
 "CMakeFiles/C__Tutorial.dir/basicConcepts.cpp.o" \
-"CMakeFiles/C__Tutorial.dir/BankAccount.cpp.o"
+"CMakeFiles/C__Tutorial.dir/BankAccount.cpp.o" \
+"CMakeFiles/C__Tutorial.dir/ChildBankAccount.cpp.o"
 
 # External object files for target C__Tutorial
 C__Tutorial_EXTERNAL_OBJECTS =
@@ -141,9 +166,10 @@ C__Tutorial_EXTERNAL_OBJECTS =
 C__Tutorial: CMakeFiles/C__Tutorial.dir/main.cpp.o
 C__Tutorial: CMakeFiles/C__Tutorial.dir/basicConcepts.cpp.o
 C__Tutorial: CMakeFiles/C__Tutorial.dir/BankAccount.cpp.o
+C__Tutorial: CMakeFiles/C__Tutorial.dir/ChildBankAccount.cpp.o
 C__Tutorial: CMakeFiles/C__Tutorial.dir/build.make
 C__Tutorial: CMakeFiles/C__Tutorial.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jie/develop/c++/C++Tutorial/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable C__Tutorial"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable C__Tutorial"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/C__Tutorial.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -154,6 +180,7 @@ CMakeFiles/C__Tutorial.dir/build: C__Tutorial
 CMakeFiles/C__Tutorial.dir/requires: CMakeFiles/C__Tutorial.dir/main.cpp.o.requires
 CMakeFiles/C__Tutorial.dir/requires: CMakeFiles/C__Tutorial.dir/basicConcepts.cpp.o.requires
 CMakeFiles/C__Tutorial.dir/requires: CMakeFiles/C__Tutorial.dir/BankAccount.cpp.o.requires
+CMakeFiles/C__Tutorial.dir/requires: CMakeFiles/C__Tutorial.dir/ChildBankAccount.cpp.o.requires
 
 .PHONY : CMakeFiles/C__Tutorial.dir/requires
 
@@ -162,6 +189,6 @@ CMakeFiles/C__Tutorial.dir/clean:
 .PHONY : CMakeFiles/C__Tutorial.dir/clean
 
 CMakeFiles/C__Tutorial.dir/depend:
-	cd /home/jie/develop/c++/C++Tutorial/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jie/develop/c++/C++Tutorial /home/jie/develop/c++/C++Tutorial /home/jie/develop/c++/C++Tutorial/cmake-build-debug /home/jie/develop/c++/C++Tutorial/cmake-build-debug /home/jie/develop/c++/C++Tutorial/cmake-build-debug/CMakeFiles/C__Tutorial.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mac/Desktop/develop/CPP/CPPTutorial /Users/mac/Desktop/develop/CPP/CPPTutorial /Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug /Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug /Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug/CMakeFiles/C__Tutorial.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/C__Tutorial.dir/depend
 

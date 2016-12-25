@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/jie/develop/c++/clion-2016.3/bin/cmake/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/jie/develop/c++/clion-2016.3/bin/cmake/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jie/develop/c++/C++Tutorial
+CMAKE_SOURCE_DIR = /Users/mac/Desktop/develop/CPP/CPPTutorial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jie/develop/c++/C++Tutorial/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/jie/develop/c++/C++Tutorial/cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/jie/develop/c++/clion-2016.3/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -70,7 +70,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/jie/develop/c++/clion-2016.3/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jie/develop/c++/C++Tutorial/cmake-build-debug/CMakeFiles /home/jie/develop/c++/C++Tutorial/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug/CMakeFiles /Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jie/develop/c++/C++Tutorial/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -150,6 +150,33 @@ BankAccount.cpp.s:
 	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/BankAccount.cpp.s
 .PHONY : BankAccount.cpp.s
 
+ChildBankAccount.o: ChildBankAccount.cpp.o
+
+.PHONY : ChildBankAccount.o
+
+# target to build an object file
+ChildBankAccount.cpp.o:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/ChildBankAccount.cpp.o
+.PHONY : ChildBankAccount.cpp.o
+
+ChildBankAccount.i: ChildBankAccount.cpp.i
+
+.PHONY : ChildBankAccount.i
+
+# target to preprocess a source file
+ChildBankAccount.cpp.i:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/ChildBankAccount.cpp.i
+.PHONY : ChildBankAccount.cpp.i
+
+ChildBankAccount.s: ChildBankAccount.cpp.s
+
+.PHONY : ChildBankAccount.s
+
+# target to generate assembly for a file
+ChildBankAccount.cpp.s:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/ChildBankAccount.cpp.s
+.PHONY : ChildBankAccount.cpp.s
+
 basicConcepts.o: basicConcepts.cpp.o
 
 .PHONY : basicConcepts.o
@@ -216,6 +243,9 @@ help:
 	@echo "... BankAccount.o"
 	@echo "... BankAccount.i"
 	@echo "... BankAccount.s"
+	@echo "... ChildBankAccount.o"
+	@echo "... ChildBankAccount.i"
+	@echo "... ChildBankAccount.s"
 	@echo "... basicConcepts.o"
 	@echo "... basicConcepts.i"
 	@echo "... basicConcepts.s"

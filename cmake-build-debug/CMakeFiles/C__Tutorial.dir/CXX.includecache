@@ -6,23 +6,37 @@
 
 #IncludeRegexTransform: 
 
-/home/jie/develop/c++/C++Tutorial/BankAccount.cpp
+/Users/mac/Desktop/develop/CPP/CPPTutorial/BankAccount.cpp
 BankAccount.h
-/home/jie/develop/c++/C++Tutorial/BankAccount.h
+/Users/mac/Desktop/develop/CPP/CPPTutorial/BankAccount.h
 
-/home/jie/develop/c++/C++Tutorial/BankAccount.h
+/Users/mac/Desktop/develop/CPP/CPPTutorial/BankAccount.h
 iostream
 -
+VirtualFunction.h
+/Users/mac/Desktop/develop/CPP/CPPTutorial/VirtualFunction.h
 
-/home/jie/develop/c++/C++Tutorial/basicConcepts.cpp
+/Users/mac/Desktop/develop/CPP/CPPTutorial/ChildBankAccount.cpp
+ChildBankAccount.h
+/Users/mac/Desktop/develop/CPP/CPPTutorial/ChildBankAccount.h
+
+/Users/mac/Desktop/develop/CPP/CPPTutorial/ChildBankAccount.h
+BankAccount.h
+/Users/mac/Desktop/develop/CPP/CPPTutorial/BankAccount.h
+
+/Users/mac/Desktop/develop/CPP/CPPTutorial/VirtualFunction.h
+
+/Users/mac/Desktop/develop/CPP/CPPTutorial/basicConcepts.cpp
 iostream
 -
 cstdlib
 -
 BankAccount.h
-/home/jie/develop/c++/C++Tutorial/BankAccount.h
+/Users/mac/Desktop/develop/CPP/CPPTutorial/BankAccount.h
+ChildBankAccount.h
+/Users/mac/Desktop/develop/CPP/CPPTutorial/ChildBankAccount.h
 
-/home/jie/develop/c++/C++Tutorial/main.cpp
+/Users/mac/Desktop/develop/CPP/CPPTutorial/main.cpp
 iostream
 -
 

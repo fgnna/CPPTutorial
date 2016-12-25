@@ -8,95 +8,98 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/jie/develop/c++/C++Tutorial/cmake-build-debug"/>
+				<Option working_dir="/Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/jie/develop/c++/C++Tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jie/develop/c++/C++Tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/jie/develop/c++/C++Tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jie/develop/c++/C++Tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/jie/develop/c++/C++Tutorial/cmake-build-debug"/>
+				<Option working_dir="/Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/jie/develop/c++/C++Tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jie/develop/c++/C++Tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/jie/develop/c++/C++Tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jie/develop/c++/C++Tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/jie/develop/c++/C++Tutorial/cmake-build-debug"/>
+				<Option working_dir="/Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/jie/develop/c++/C++Tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jie/develop/c++/C++Tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/jie/develop/c++/C++Tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jie/develop/c++/C++Tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="C__Tutorial">
-				<Option output="/home/jie/develop/c++/C++Tutorial/cmake-build-debug/C__Tutorial" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/jie/develop/c++/C++Tutorial/cmake-build-debug"/>
+				<Option output="/Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug/C__Tutorial" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/jie/develop/c++/C++Tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 C__Tutorial"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jie/develop/c++/C++Tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/jie/develop/c++/C++Tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jie/develop/c++/C++Tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 C__Tutorial"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="C__Tutorial/fast">
-				<Option output="/home/jie/develop/c++/C++Tutorial/cmake-build-debug/C__Tutorial" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/jie/develop/c++/C++Tutorial/cmake-build-debug"/>
+				<Option output="/Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug/C__Tutorial" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/jie/develop/c++/C++Tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 C__Tutorial/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jie/develop/c++/C++Tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/jie/develop/c++/C++Tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jie/develop/c++/C++Tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 C__Tutorial/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/develop/CPP/CPPTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/jie/develop/c++/C++Tutorial/BankAccount.cpp">
+		<Unit filename="/Users/mac/Desktop/develop/CPP/CPPTutorial/BankAccount.cpp">
 			<Option target="C__Tutorial"/>
 		</Unit>
-		<Unit filename="/home/jie/develop/c++/C++Tutorial/BankAccount.h">
+		<Unit filename="/Users/mac/Desktop/develop/CPP/CPPTutorial/BankAccount.h">
 			<Option target="C__Tutorial"/>
 		</Unit>
-		<Unit filename="/home/jie/develop/c++/C++Tutorial/basicConcepts.cpp">
+		<Unit filename="/Users/mac/Desktop/develop/CPP/CPPTutorial/ChildBankAccount.cpp">
 			<Option target="C__Tutorial"/>
 		</Unit>
-		<Unit filename="/home/jie/develop/c++/C++Tutorial/main.cpp">
+		<Unit filename="/Users/mac/Desktop/develop/CPP/CPPTutorial/ChildBankAccount.h">
 			<Option target="C__Tutorial"/>
 		</Unit>
-		<Unit filename="/home/jie/develop/c++/C++Tutorial/CMakeLists.txt">
+		<Unit filename="/Users/mac/Desktop/develop/CPP/CPPTutorial/VirtualFunction.h">
+			<Option target="C__Tutorial"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/develop/CPP/CPPTutorial/basicConcepts.cpp">
+			<Option target="C__Tutorial"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/develop/CPP/CPPTutorial/main.cpp">
+			<Option target="C__Tutorial"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/develop/CPP/CPPTutorial/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

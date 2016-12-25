@@ -39,6 +39,10 @@ void BankAccount::sayHiThis()
     cout << "HI , my  this  is " << this->name << endl;
     cout << "HI , my  this2  is " << (*this).name << endl;
 }
+void BankAccount::virtualFunction()
+{
+    cout << "virtualFunction() " << endl;
+}
 /**
  * 运算符重写
  * @param obj

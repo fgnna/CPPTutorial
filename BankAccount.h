@@ -7,10 +7,11 @@
 
 
 #include <iostream>
+#include "VirtualFunction.h"
 
 using namespace std;
 
-class BankAccount {
+class BankAccount : public VirtualFunction {
 private:
     string name;
     string name2;
@@ -29,6 +30,7 @@ public:
     void sayHiThis();
     friend void someFunc(BankAccount &obj);
     BankAccount operator+(BankAccount &obj);
+    void virtualFunction();
 };
 
 
