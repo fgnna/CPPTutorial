@@ -1,7 +1,9 @@
 #include <iostream>
 #include <cstdlib>
+#include <fstream>
 #include "BankAccount.h"
 #include "ChildBankAccount.h"
+#include "TemplateClass.h"
 
 void printSomething();
 void printSomethingForParams(int x);
@@ -15,6 +17,16 @@ void someFunc(BankAccount &obj)
 {
     //obj.name = "friend";
 }
+template <class T>
+T sumxx(T a, T b)
+{
+    return a + b;
+}
+
+
+
+
+
 int main()
 {
     //std::cout << "Hello, World!" ;
@@ -123,7 +135,7 @@ int main()
     BankAccount test2("newname");
     test1.setName("asdfasdf");
     test1.sayHi();
-    BankAccount *test3 = &test2;
+    BankAccount* test3 = &test2;
     std::cout << "object pointer  " << test3->getName() << std::endl;
     const BankAccount test4("const");
     test4.sayHiConst();
@@ -137,6 +149,62 @@ int main()
     prantBankAccount->sayHi();
     VirtualFunction *virtualFunction = &childBankAccount;
     virtualFunction->virtualFunction();
+    std::cout << "template <class T> 泛型" << std::endl;
+
+    int xx = 4;
+    int yy = 6;
+    std::cout << sumxx(xx,yy) << std::endl;
+    double xxd = 3.9;
+    double yyd = 4.8;
+    std::cout << sumxx(xxd,yyd) << std::endl;
+
+
+
+    TemplateClass<int> mtemplateClass;
+    mtemplateClass.printxx(xx,yy);
+
+    try {
+        throw 1;
+    }
+    catch(int ex)
+    {
+        cout << "throw error code : " << ex << endl;
+    }
+    catch (...)
+    {}
+
+
+    try {
+        throw "sdsfsd";
+    }
+    catch(...)
+    {
+        cout << "throw error ... 捕获任何异常 : "<< endl;
+    }
+
+    ofstream MyFile;
+    MyFile.open("outputFile.txt");
+    /**
+     * MyFile.open("outputFile.txt",ios::app|ios::ate);
+     * 模式，app添加到结尾 ate如果文件处于open状态指向结尾
+     * 等等
+     */
+
+
+    MyFile << "asdfasdfasdfads \n";
+    if(MyFile.is_open())
+    {
+        MyFile.close();
+    }
+
+    ifstream MyInFile("outputFile.txt");
+
+    string line;
+    while(getline(MyInFile,line))
+    {
+        cout << line << endl;
+    }
+
     std::cout << "end ===============================================" << std::endl;
     return 0;
 }

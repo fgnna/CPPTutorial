@@ -24,6 +24,14 @@ ChildBankAccount.h
 BankAccount.h
 /Users/mac/Desktop/develop/CPP/CPPTutorial/BankAccount.h
 
+/Users/mac/Desktop/develop/CPP/CPPTutorial/TemplateClass.cpp
+iostream
+-
+TemplateClass.h
+/Users/mac/Desktop/develop/CPP/CPPTutorial/TemplateClass.h
+
+/Users/mac/Desktop/develop/CPP/CPPTutorial/TemplateClass.h
+
 /Users/mac/Desktop/develop/CPP/CPPTutorial/VirtualFunction.h
 
 /Users/mac/Desktop/develop/CPP/CPPTutorial/basicConcepts.cpp
@@ -31,10 +39,14 @@ iostream
 -
 cstdlib
 -
+fstream
+-
 BankAccount.h
 /Users/mac/Desktop/develop/CPP/CPPTutorial/BankAccount.h
 ChildBankAccount.h
 /Users/mac/Desktop/develop/CPP/CPPTutorial/ChildBankAccount.h
+TemplateClass.h
+/Users/mac/Desktop/develop/CPP/CPPTutorial/TemplateClass.h
 
 /Users/mac/Desktop/develop/CPP/CPPTutorial/main.cpp
 iostream

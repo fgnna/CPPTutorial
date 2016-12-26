@@ -10,8 +10,12 @@ CMakeFiles/C__Tutorial.dir/ChildBankAccount.cpp.o: ../ChildBankAccount.cpp
 CMakeFiles/C__Tutorial.dir/ChildBankAccount.cpp.o: ../ChildBankAccount.h
 CMakeFiles/C__Tutorial.dir/ChildBankAccount.cpp.o: ../VirtualFunction.h
 
+CMakeFiles/C__Tutorial.dir/TemplateClass.cpp.o: ../TemplateClass.cpp
+CMakeFiles/C__Tutorial.dir/TemplateClass.cpp.o: ../TemplateClass.h
+
 CMakeFiles/C__Tutorial.dir/basicConcepts.cpp.o: ../BankAccount.h
 CMakeFiles/C__Tutorial.dir/basicConcepts.cpp.o: ../ChildBankAccount.h
+CMakeFiles/C__Tutorial.dir/basicConcepts.cpp.o: ../TemplateClass.h
 CMakeFiles/C__Tutorial.dir/basicConcepts.cpp.o: ../VirtualFunction.h
 CMakeFiles/C__Tutorial.dir/basicConcepts.cpp.o: ../basicConcepts.cpp
 

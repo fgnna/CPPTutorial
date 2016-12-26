@@ -90,6 +90,12 @@
 		<Unit filename="/Users/mac/Desktop/develop/CPP/CPPTutorial/ChildBankAccount.h">
 			<Option target="C__Tutorial"/>
 		</Unit>
+		<Unit filename="/Users/mac/Desktop/develop/CPP/CPPTutorial/TemplateClass.cpp">
+			<Option target="C__Tutorial"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/develop/CPP/CPPTutorial/TemplateClass.h">
+			<Option target="C__Tutorial"/>
+		</Unit>
 		<Unit filename="/Users/mac/Desktop/develop/CPP/CPPTutorial/VirtualFunction.h">
 			<Option target="C__Tutorial"/>
 		</Unit>

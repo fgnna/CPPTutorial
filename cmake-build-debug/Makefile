@@ -177,6 +177,33 @@ ChildBankAccount.cpp.s:
 	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/ChildBankAccount.cpp.s
 .PHONY : ChildBankAccount.cpp.s
 
+TemplateClass.o: TemplateClass.cpp.o
+
+.PHONY : TemplateClass.o
+
+# target to build an object file
+TemplateClass.cpp.o:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/TemplateClass.cpp.o
+.PHONY : TemplateClass.cpp.o
+
+TemplateClass.i: TemplateClass.cpp.i
+
+.PHONY : TemplateClass.i
+
+# target to preprocess a source file
+TemplateClass.cpp.i:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/TemplateClass.cpp.i
+.PHONY : TemplateClass.cpp.i
+
+TemplateClass.s: TemplateClass.cpp.s
+
+.PHONY : TemplateClass.s
+
+# target to generate assembly for a file
+TemplateClass.cpp.s:
+	$(MAKE) -f CMakeFiles/C__Tutorial.dir/build.make CMakeFiles/C__Tutorial.dir/TemplateClass.cpp.s
+.PHONY : TemplateClass.cpp.s
+
 basicConcepts.o: basicConcepts.cpp.o
 
 .PHONY : basicConcepts.o
@@ -246,6 +273,9 @@ help:
 	@echo "... ChildBankAccount.o"
 	@echo "... ChildBankAccount.i"
 	@echo "... ChildBankAccount.s"
+	@echo "... TemplateClass.o"
+	@echo "... TemplateClass.i"
+	@echo "... TemplateClass.s"
 	@echo "... basicConcepts.o"
 	@echo "... basicConcepts.i"
 	@echo "... basicConcepts.s"
